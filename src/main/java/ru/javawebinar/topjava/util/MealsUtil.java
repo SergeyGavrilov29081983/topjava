@@ -10,7 +10,7 @@ import java.time.Month;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static ru.javawebinar.topjava.util.TimeUtil.isBetweenHalfOpen;
+import static ru.javawebinar.topjava.util.DateTimeUtil.isBetweenHalfOpen;
 
 public class MealsUtil {
     public static void main(String[] args) {
