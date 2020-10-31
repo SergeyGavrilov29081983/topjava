@@ -1,5 +1,6 @@
 package ru.javawebinar.topjava.model;
 
+import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
 import java.util.Collection;

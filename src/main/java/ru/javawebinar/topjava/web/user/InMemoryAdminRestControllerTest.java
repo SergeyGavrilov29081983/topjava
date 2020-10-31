@@ -53,6 +53,6 @@ public class InMemoryAdminRestControllerTest {
 
     @Test
     public void deleteNotFound() throws Exception {
-       org.testng.Assert.assertThrows(NotFoundException.class, () -> controller.delete(NOT_FOUND));
+        org.junit.Assert.assertThrows(NotFoundException.class, () -> controller.delete(NOT_FOUND));
     }
 }

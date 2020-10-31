@@ -13,8 +13,8 @@ import java.util.stream.Collectors;
 import static ru.javawebinar.topjava.UserTestData.admin;
 import static ru.javawebinar.topjava.UserTestData.user;
 
-@Qualifier("InMemoryUserRepository")
-@Repository
+
+
 public class InMemoryUserRepository extends InMemoryBaseRepository<User> implements UserRepository {
 
     public void init() {
