@@ -83,7 +83,7 @@ public class MealsUtil {
 
         List<MealTo> list = new ArrayList<>();
         for (Meal meal: meals) {
-            list.add(new MealTo(1,meal.getDateTime(), meal.getDescription(), meal.getCalories(), caloriesSumByDate.get(meal.getDateTime().toLocalDate()) > defaultCaloriesPerDay));
+            list.add(new MealTo(1, meal.getDateTime(), meal.getDescription(), meal.getCalories(), caloriesSumByDate.get(meal.getDateTime().toLocalDate()) > defaultCaloriesPerDay));
         }
         return list;
     }
